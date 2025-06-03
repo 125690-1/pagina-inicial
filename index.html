@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial - Enel</title>
+  <style>
+    body {
+      background-color: #f4faff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    .logo {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #0077b6;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      background-color: #0077b6;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 173, 239, 0.4);
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #0096c7;
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(0, 173, 239, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Logo Enel" class="logo">
+    <h1>Olá, seja bem-vindo!</h1>
+    <p>O que você deseja fazer hoje?</p>
+    <div class="button-container">
+      <a href="retorno.html" class="button">Retorno de Campo</a>
+      <a href="entrega.html" class="button">Entrega de Materiais</a>
+    </div>
+  </div>
+</body>
+</html>
